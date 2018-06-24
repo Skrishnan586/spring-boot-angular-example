@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build backend') {
       steps {
-        sh '''cd ./backend/
+        sh '''cd ./server/
 ./mvnw package'''
       }
     }
