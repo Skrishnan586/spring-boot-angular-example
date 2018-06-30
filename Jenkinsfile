@@ -31,7 +31,7 @@ ng build'''
     }
     stage('test') {
       steps {
-        sh '''curl http://localhost:9000
+        sh '''sleep 30; curl http://localhost:9000
 curl http://localhost:4002
 sleep 30'''
       }
