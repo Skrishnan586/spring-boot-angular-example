@@ -1,0 +1,13 @@
+version: '2.1'
+
+services:
+  server:
+    image: server
+    build: ./server/
+    ports:
+      - 9000:8080
+  client:
+    image: client
+    build: ./client/
+    ports:
+      - 4002:80

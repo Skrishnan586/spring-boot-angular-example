@@ -1,8 +1,0 @@
-version: '2.1'
-
-services:
-  server:
-    image: server
-    build: .
-    ports:
-      - 9000:8080
